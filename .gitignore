@@ -1,0 +1,10 @@
+__pycache__
+dist/Client/*
+build
+PyQt5
+PyQt5_sip-4.19.17.dist-info
+pyqt5_tools
+pyqt5_tools-5.11.3.1.4.dist-info
+Client.spec
+youtube-to-mp3.py
+url-to-download.txt
