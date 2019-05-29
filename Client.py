@@ -17,7 +17,7 @@ import Path
 
 YDL_OPTS = {
 	"format": "bestaudio/best",
-	"outtmpl": os.path.join(Path.get_music_path(), "%(title)s"),
+	"outtmpl": os.path.join(Path.get_music_path(), "%(title)s.%(ext)s"),
 	"postprocessors": [{
 		"key": "FFmpegExtractAudio",
 		"preferredcodec": "mp3",
