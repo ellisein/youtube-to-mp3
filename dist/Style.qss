@@ -1,0 +1,39 @@
+QMainWindow {
+	background-color: #FFFFFF;
+}
+
+QWidget {
+	font-size: 12pt;
+	font-family: Malgun Gothic;
+}
+
+QLineEdit {
+	padding: 0 5px;
+	height: 32px;
+	border: 1px solid #039BE5;
+	border-radius: 6px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+QLineEdit:active {
+	
+}
+
+QProgressbar {
+	margin: 0;
+}
+
+QPushButton {
+	border: 1px solid #039BE5;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #039BE5;
+}
+
+QPushButton:hover {
+    border: 1px solid #039BE5;
+    border-radius: 8px;
+    background-color: #039BE5;
+    color: #FFFFFF;
+}
